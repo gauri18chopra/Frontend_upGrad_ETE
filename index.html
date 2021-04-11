@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+
+    
+<!--FORM FOR SUBMISSION-->    
+<div id="form1">
+<form>
+    <input type="text" placeholder="Country" id="country" required>
+    <input type="date" id="dateOne" required>
+    <input type="date" id="dateTwo" required>
+
+    <button type="button" class="btn btn-info" onclick="getCases(country,dateOne,dateTwo)">Submit</button><!--SENDING DATA TO FUNCTION-->
+</form>
+<p id="demo"></p>
+
+
+</div>
+<script src="index.js"></script>
+
+
+</body>
+</html>
